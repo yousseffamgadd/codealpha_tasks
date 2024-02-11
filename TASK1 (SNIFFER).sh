@@ -10,6 +10,6 @@ else
     if [  -f "$PATH/result.txt" ]; then
        $sudo_path rm $PATH/result.txt 
      fi         
-        $sudo_path python3 cybersecurity.py >> "$PATH/result.txt"
+        $sudo_path python3 Sniffer.py >> "$PATH/result.txt"
 fi
 
